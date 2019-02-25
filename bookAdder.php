@@ -12,7 +12,8 @@
     $ciP=$_POST['ciP'];
     $isbn=$_POST['isbn'];
 
-	$stmt->execute();
+    $stmt->execute();
+    header("Location: showBooks.php")
 
 ?>
 <?php include "footer.php"; ?>
